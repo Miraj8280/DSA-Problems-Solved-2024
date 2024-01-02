@@ -1,11 +1,21 @@
-class Solution {
-    /*------------------------------------------------------------
-                IMP POINTS TO KEEP IN MIND
-    --------------------------------------------------------------
+/* ---------------------------------------------------------------------------------
+                                COMPANY TAGS
+ ------------------------------------------------------------------------------------
+    - Amazon
+    - Facebook
+    - Google
+    - Visa
+ */
+
+/*-------------------------------------------------------------------------------
+                            IMP POINTS TO KEEP IN MIND
+---------------------------------------------------------------------------------
         1. Ensure that the remainder of each element is non-negative.
         2. Check if the frequency of remainder 0 is even.
         3. Check if the frequency of each remainder i is equal to the frequency of its complement (k - i).  
-    */
+*/
+
+class Solution {
     public boolean canPair(int[] nums, int k) {
         // Array to store the frequency of remainders
         int[] frequency = new int[k];
@@ -37,3 +47,10 @@ class Solution {
         return true;
     }
 }
+
+/*-------------------------------------------------------------------
+                        COMPLEXITY ANALYSIS
+ --------------------------------------------------------------------
+    - Time Complexity: O(n)
+    - Space Complexity: O(n)
+ */
