@@ -28,7 +28,8 @@ class Solution {
         for (int i = 0; i < losses.length; i++) {
             if (losses[i] == -1) {
                 zeroLoss.add(i);
-            } else if (losses[i] == 1) {
+            } 
+            else if (losses[i] == 1) {
                 oneLoss.add(i);
             }
         }
